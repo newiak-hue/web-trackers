@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2025 at 09:13 PM
+-- Generation Time: Nov 30, 2025 at 05:31 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -30,9 +30,24 @@ SET time_zone = "+00:00";
 CREATE TABLE `bitcoin_price` (
   `id` bigint(20) NOT NULL,
   `scrape_time` datetime NOT NULL,
-  `price_usd` decimal(20,2) NOT NULL,
-  `high_24h_usd` decimal(20,2) DEFAULT NULL,
-  `low_24h_usd` decimal(20,2) DEFAULT NULL,
+  `price_usd` decimal(12,2) NOT NULL,
+  `high_24` decimal(12,2) DEFAULT NULL,
+  `low_24` decimal(12,2) DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ethereum_price`
+--
+
+CREATE TABLE `ethereum_price` (
+  `id` int(11) NOT NULL,
+  `scrape_time` datetime NOT NULL,
+  `price_usd` decimal(12,2) NOT NULL,
+  `high_24` decimal(12,2) DEFAULT NULL,
+  `low_24` decimal(12,2) DEFAULT NULL,
   `notes` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -77,6 +92,12 @@ ALTER TABLE `bitcoin_price`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `ethereum_price`
+--
+ALTER TABLE `ethereum_price`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `gold_price`
 --
 ALTER TABLE `gold_price`
@@ -97,6 +118,12 @@ ALTER TABLE `silver_price`
 --
 ALTER TABLE `bitcoin_price`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ethereum_price`
+--
+ALTER TABLE `ethereum_price`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `gold_price`
