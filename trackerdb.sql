@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2025 at 04:46 PM
+-- Generation Time: Dec 14, 2025 at 07:06 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -88,7 +88,25 @@ INSERT INTO `bitcoin_price` (`id`, `scrape_time`, `price_usd`, `high_24`, `low_2
 (40, '2025-12-09 06:00:16', 91304.51, 92267.11, 89068.19, 'https://coinmarketcap.com/currencies/bitcoin/'),
 (41, '2025-12-09 12:00:12', 90357.02, 92267.11, 89644.89, 'https://coinmarketcap.com/currencies/bitcoin/'),
 (42, '2025-12-09 18:00:20', 90188.25, 92220.86, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/'),
-(43, '2025-12-09 23:44:32', 91595.22, 91381.70, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/');
+(43, '2025-12-09 23:44:32', 91595.22, 91381.70, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(44, '2025-12-10 00:00:09', 92678.92, 92744.50, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(45, '2025-12-10 06:00:20', 92636.39, 94601.57, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(46, '2025-12-10 12:39:39', 92487.38, 94601.57, 89586.98, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(47, '2025-12-10 15:00:22', 92703.98, 94601.57, 89977.11, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(48, '2025-12-10 18:00:17', 92899.81, 94601.57, 89977.11, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(49, '2025-12-11 00:00:18', 91894.44, 94601.57, 91640.13, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(50, '2025-12-11 06:00:16', 92557.91, 94477.16, 91640.13, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(51, '2025-12-11 12:00:14', 89904.91, 94477.16, 89459.73, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(52, '2025-12-11 18:00:20', 90238.59, 94477.16, 89459.73, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(53, '2025-12-12 12:00:08', 92313.25, 93554.27, 89335.30, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(54, '2025-12-12 18:00:16', 92444.89, 93554.27, 89335.30, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(55, '2025-12-13 00:00:08', 90170.49, 93554.27, 89389.39, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(56, '2025-12-13 06:00:15', 90217.66, 93113.01, 89532.60, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(57, '2025-12-13 12:00:09', 90347.00, 92721.77, 89532.60, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(58, '2025-12-13 18:00:17', 90413.89, 92642.12, 89532.60, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(59, '2025-12-14 00:00:09', 90105.16, 90680.60, 89532.60, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(60, '2025-12-14 06:00:14', 90160.26, 90647.57, 89800.99, 'https://coinmarketcap.com/currencies/bitcoin/'),
+(61, '2025-12-14 12:00:16', 90276.61, 90647.57, 89800.99, 'https://coinmarketcap.com/currencies/bitcoin/');
 
 -- --------------------------------------------------------
 
@@ -152,7 +170,25 @@ INSERT INTO `ethereum_price` (`id`, `scrape_time`, `price_usd`, `high_24`, `low_
 (40, '2025-12-09 06:00:16', 3147.43, 3177.87, 3023.94, 'https://coinmarketcap.com/currencies/ethereum/'),
 (41, '2025-12-09 12:00:13', 3122.97, 3177.87, 3083.34, 'https://coinmarketcap.com/currencies/ethereum/'),
 (42, '2025-12-09 18:00:21', 3107.70, 3174.83, 3083.34, 'https://coinmarketcap.com/currencies/ethereum/'),
-(43, '2025-12-09 23:44:32', 3167.94, 3163.50, 3083.34, 'https://coinmarketcap.com/currencies/ethereum/');
+(43, '2025-12-09 23:44:32', 3167.94, 3163.50, 3083.34, 'https://coinmarketcap.com/currencies/ethereum/'),
+(44, '2025-12-10 00:00:09', 3247.96, 3251.02, 3083.34, 'https://coinmarketcap.com/currencies/ethereum/'),
+(45, '2025-12-10 06:00:21', 3290.73, 3395.84, 3092.88, 'https://coinmarketcap.com/currencies/ethereum/'),
+(46, '2025-12-10 12:39:39', 3312.52, 3395.84, 3095.96, 'https://coinmarketcap.com/currencies/ethereum/'),
+(47, '2025-12-10 15:00:25', 3324.11, 3395.84, 3095.96, 'https://coinmarketcap.com/currencies/ethereum/'),
+(48, '2025-12-10 18:00:18', 3339.71, 3395.84, 3095.96, 'https://coinmarketcap.com/currencies/ethereum/'),
+(49, '2025-12-11 00:00:19', 3321.60, 3395.84, 3243.86, 'https://coinmarketcap.com/currencies/ethereum/'),
+(50, '2025-12-11 06:00:17', 3351.85, 3446.62, 3286.76, 'https://coinmarketcap.com/currencies/ethereum/'),
+(51, '2025-12-11 12:00:15', 3190.38, 3446.62, 3170.86, 'https://coinmarketcap.com/currencies/ethereum/'),
+(52, '2025-12-11 18:00:21', 3200.45, 3446.62, 3170.86, 'https://coinmarketcap.com/currencies/ethereum/'),
+(53, '2025-12-12 12:00:08', 3247.02, 3272.19, 3149.03, 'https://coinmarketcap.com/currencies/ethereum/'),
+(54, '2025-12-12 18:00:16', 3250.13, 3272.19, 3149.03, 'https://coinmarketcap.com/currencies/ethereum/'),
+(55, '2025-12-13 00:00:09', 3082.35, 3272.19, 3080.29, 'https://coinmarketcap.com/currencies/ethereum/'),
+(56, '2025-12-13 06:00:14', 3083.26, 3265.37, 3050.27, 'https://coinmarketcap.com/currencies/ethereum/'),
+(57, '2025-12-13 12:00:09', 3089.76, 3264.40, 3050.27, 'https://coinmarketcap.com/currencies/ethereum/'),
+(58, '2025-12-13 18:00:18', 3119.85, 3255.11, 3050.27, 'https://coinmarketcap.com/currencies/ethereum/'),
+(59, '2025-12-14 00:00:09', 3110.69, 3134.85, 3050.27, 'https://coinmarketcap.com/currencies/ethereum/'),
+(60, '2025-12-14 06:00:14', 3110.60, 3134.85, 3080.08, 'https://coinmarketcap.com/currencies/ethereum/'),
+(61, '2025-12-14 12:00:17', 3120.24, 3134.85, 3083.80, 'https://coinmarketcap.com/currencies/ethereum/');
 
 -- --------------------------------------------------------
 
@@ -216,7 +252,25 @@ INSERT INTO `gold_price` (`id`, `scrape_time`, `price_usd`, `high_24`, `low_24`,
 (40, '2025-12-09 06:00:18', 4189.70, 4220.00, 4175.40, 'https://kitco.com/charts/gold/'),
 (41, '2025-12-09 12:00:14', 4194.20, 4199.90, 4185.30, 'https://kitco.com/charts/gold/'),
 (42, '2025-12-09 18:00:23', 4201.40, 4213.70, 4169.30, 'https://kitco.com/charts/gold/'),
-(43, '2025-12-09 23:44:32', 4203.70, 4213.70, 4169.30, 'https://kitco.com/charts/gold/');
+(43, '2025-12-09 23:44:32', 4203.70, 4213.70, 4169.30, 'https://kitco.com/charts/gold/'),
+(44, '2025-12-10 00:00:11', 4207.00, 4213.70, 4169.30, 'https://kitco.com/charts/gold/'),
+(45, '2025-12-10 06:00:22', 4207.60, 4222.20, 4169.30, 'https://kitco.com/charts/gold/'),
+(46, '2025-12-10 12:39:40', 4206.60, 4219.70, 4203.00, 'https://kitco.com/charts/gold/'),
+(47, '2025-12-10 15:00:27', 4206.30, 4219.70, 4201.00, 'https://kitco.com/charts/gold/'),
+(48, '2025-12-10 18:00:20', 4192.70, 4219.70, 4191.80, 'https://kitco.com/charts/gold/'),
+(49, '2025-12-11 00:00:21', 4191.30, 4219.70, 4187.10, 'https://kitco.com/charts/gold/'),
+(50, '2025-12-11 06:00:19', 4227.50, 4239.60, 4181.30, 'https://kitco.com/charts/gold/'),
+(51, '2025-12-11 12:00:17', 4216.10, 4248.70, 4209.20, 'https://kitco.com/charts/gold/'),
+(52, '2025-12-11 18:00:22', 4217.90, 4248.70, 4203.70, 'https://kitco.com/charts/gold/'),
+(53, '2025-12-12 12:00:10', 4270.10, 4284.00, 4264.00, 'https://kitco.com/charts/gold/'),
+(54, '2025-12-12 18:00:18', 4317.00, 4321.40, 4264.00, 'https://kitco.com/charts/gold/'),
+(55, '2025-12-13 00:00:10', 4285.30, 4354.30, 4264.00, 'https://kitco.com/charts/gold/'),
+(56, '2025-12-13 06:00:16', 4300.00, 4354.30, 4256.80, 'https://kitco.com/charts/gold/'),
+(57, '2025-12-13 12:00:11', 4298.70, 4354.30, 4256.80, 'https://kitco.com/charts/gold/'),
+(58, '2025-12-13 18:00:19', 4298.70, 4354.30, 4256.80, 'https://kitco.com/charts/gold/'),
+(59, '2025-12-14 00:00:10', 4298.70, 4354.30, 4256.80, 'https://kitco.com/charts/gold/'),
+(60, '2025-12-14 06:00:16', 4298.70, 4354.30, 4256.80, 'https://kitco.com/charts/gold/'),
+(61, '2025-12-14 12:00:18', 4298.70, 4354.30, 4256.80, 'https://kitco.com/charts/gold/');
 
 -- --------------------------------------------------------
 
@@ -280,7 +334,25 @@ INSERT INTO `silver_price` (`id`, `scrape_time`, `price_usd`, `high_24`, `low_24
 (40, '2025-12-09 06:00:20', 58.08, 58.90, 57.56, 'https://www.kitco.com/charts/silver/'),
 (41, '2025-12-09 12:00:16', 58.24, 58.47, 57.82, 'https://www.kitco.com/charts/silver/'),
 (42, '2025-12-09 18:00:24', 58.39, 58.98, 57.54, 'https://www.kitco.com/charts/silver/'),
-(43, '2025-12-09 23:44:33', 59.90, 60.00, 57.54, 'https://www.kitco.com/charts/silver/');
+(43, '2025-12-09 23:44:33', 59.90, 60.00, 57.54, 'https://www.kitco.com/charts/silver/'),
+(44, '2025-12-10 00:00:12', 60.02, 60.07, 57.54, 'https://www.kitco.com/charts/silver/'),
+(45, '2025-12-10 06:00:24', 60.59, 60.88, 57.54, 'https://www.kitco.com/charts/silver/'),
+(46, '2025-12-10 12:39:42', 60.98, 61.51, 60.45, 'https://www.kitco.com/charts/silver/'),
+(47, '2025-12-10 15:00:29', 61.36, 61.64, 60.45, 'https://www.kitco.com/charts/silver/'),
+(48, '2025-12-10 18:00:21', 60.84, 61.64, 60.45, 'https://www.kitco.com/charts/silver/'),
+(49, '2025-12-11 00:00:22', 60.47, 61.64, 60.03, 'https://www.kitco.com/charts/silver/'),
+(50, '2025-12-11 06:00:20', 61.76, 61.97, 60.03, 'https://www.kitco.com/charts/silver/'),
+(51, '2025-12-11 12:00:18', 62.01, 62.93, 61.59, 'https://www.kitco.com/charts/silver/'),
+(52, '2025-12-11 18:00:24', 62.00, 62.93, 61.37, 'https://www.kitco.com/charts/silver/'),
+(53, '2025-12-12 12:00:11', 63.43, 63.98, 62.88, 'https://www.kitco.com/charts/silver/'),
+(54, '2025-12-12 18:00:19', 64.05, 64.39, 62.88, 'https://www.kitco.com/charts/silver/'),
+(55, '2025-12-13 00:00:11', 62.10, 64.69, 62.10, 'https://www.kitco.com/charts/silver/'),
+(56, '2025-12-13 06:00:17', 61.90, 64.69, 60.75, 'https://www.kitco.com/charts/silver/'),
+(57, '2025-12-13 12:00:12', 61.87, 64.69, 60.75, 'https://www.kitco.com/charts/silver/'),
+(58, '2025-12-13 18:00:20', 61.87, 64.69, 60.75, 'https://www.kitco.com/charts/silver/'),
+(59, '2025-12-14 00:00:11', 61.87, 64.69, 60.75, 'https://www.kitco.com/charts/silver/'),
+(60, '2025-12-14 06:00:17', 61.87, 64.69, 60.75, 'https://www.kitco.com/charts/silver/'),
+(61, '2025-12-14 12:00:17', 61.87, 64.69, 60.75, 'https://www.kitco.com/charts/silver/');
 
 --
 -- Indexes for dumped tables
@@ -318,25 +390,25 @@ ALTER TABLE `silver_price`
 -- AUTO_INCREMENT for table `bitcoin_price`
 --
 ALTER TABLE `bitcoin_price`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- AUTO_INCREMENT for table `ethereum_price`
 --
 ALTER TABLE `ethereum_price`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- AUTO_INCREMENT for table `gold_price`
 --
 ALTER TABLE `gold_price`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- AUTO_INCREMENT for table `silver_price`
 --
 ALTER TABLE `silver_price`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
